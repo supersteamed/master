@@ -1,0 +1,46 @@
+body{
+	overflow-x:hidden;
+	background-color: #F5F5F5;
+}
+html,body,h1,h2,h3,h4,p,h2,ul,li,input,dl,dd,dt{
+	padding: 0;
+	margin:0;
+}
+img{
+	display: block;
+	border-style: none;
+}
+i{
+	font-style: normal;
+}
+h1,h2,h3,h4{
+	font-weight: normal;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clearfix{
+	zoom:1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+@font-face {
+  font-family: "rapid-icon-font";
+  src:url("../fonts/rapid-icon-font.eot");
+  src:url("../fonts/rapid-icon-font.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/rapid-icon-font.woff") format("woff"),
+    url("../fonts/rapid-icon-font.ttf") format("truetype"),
+    url("../fonts/rapid-icon-font.svg#rapid-icon-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+em{
+	font-family: "rapid-icon-font";
+	font-style:normal;
+}

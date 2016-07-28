@@ -1,0 +1,3 @@
+menBanner({
+	obj:'banner',
+});
